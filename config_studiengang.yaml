@@ -1,0 +1,19 @@
+# /mntm/ssd/user_management/config_studiengang.yaml
+studiengaenge:
+  Inf:
+    dauer_jahre: 4
+    home_path: /sharedfolders/Students/private/Inf
+    groups: ["Inf", "alle"]
+  IMIT:
+    dauer_jahre: 4
+    home_path: /sharedfolders/Students/private/IMIT
+    groups: ["IMIT", "alle"]
+  EIT:
+    dauer_jahre: 5
+    home_path: /sharedfolders/Students/private/EIT
+    groups: ["EIT", "alle"]
+  Ausbilder:
+    dauer_jahre: 20
+    home_path: /sharedfolders/Ausbilder/private
+    groups: ["Ausbilder", "alle"]
+    
