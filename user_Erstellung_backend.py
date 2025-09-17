@@ -8,9 +8,9 @@ import os
 import csv
 import sys
 
-CONFIG_FILE = "config_studiengang.yaml"#"/mnt/ssd/user_management/config_studiengang.yaml"
-aktuelle_User = "aktuelle_User.csv"#"/mnt/ssd/user_management/aktuelle_User.csv"
-LOG_FILE = "omv_user_management.log"#"/mnt/ssd/user_management/omv_user_management.log"
+CONFIG_FILE = "/mnt/ssd/user_management/config_studiengang.yaml"
+aktuelle_User = "/mnt/ssd/user_management/aktuelle_User.csv"
+LOG_FILE = "/mnt/ssd/user_management/omv_user_management.log"
 
 # ------ Ausgabe in die Log-Datei ------
 def log_message(message):
@@ -208,3 +208,4 @@ if __name__ == '__main__':
         sys.exit(1)
 
     log_message("Ausführung abgeschlossen.")
+
