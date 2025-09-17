@@ -1,0 +1,14 @@
+# /mntm/ssd/user_management/config_studiengang.yaml
+studiengaenge:
+  Informatik:
+    dauer_jahre: 4
+    home_path: /sharedfolders/Students/Inf
+  IMIT:
+    dauer_jahre: 
+    home_path: /sharedfolders/Students/IMIT
+  EIT:
+    dauer_jahre: 5
+    home_path: /sharedfolders/Students/EIT
+  Ausbilder:
+    dauer_jahre: 20
+    home_path: /sharedfolders/Ausbilder
